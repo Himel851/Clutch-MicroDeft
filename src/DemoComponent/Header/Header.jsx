@@ -13,7 +13,7 @@ const Header = () => {
                 <Container>
                     <Row >
                         <Col>
-                            <h6>Home &gt; Web Design</h6>
+                            <h6>Home &gt;~ Web Design</h6>
                         </Col>
                         <Col className="text-right">
                             <p>LAST UPDATED APR 11, 2023</p>
