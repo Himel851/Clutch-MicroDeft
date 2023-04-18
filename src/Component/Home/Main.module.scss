@@ -1,0 +1,41 @@
+.main {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  .left {
+    h1 {
+      color: #17313b;
+      font-weight: 700;
+      font-size: 60px;
+    }
+    p {
+      color: #17313b;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .group {
+      width: 70%;
+      height: 50px;
+      margin-left: 20px;
+
+      
+    }
+    Button {
+      background: red;
+      margin-left: 20px;
+      width: 200px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main{
+    .left{
+      h1{
+        font-size: 40px;
+      }
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+}

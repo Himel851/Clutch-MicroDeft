@@ -1,0 +1,49 @@
+.project{
+    background: #F5F3F3;
+    padding: 5%;
+    h1{
+        color: #17313b;
+        font-weight: 700;
+    }
+    p{
+        color: #17313b;
+        font-size: 20px;
+    }
+    .col{
+        padding: 40px;
+        width: 50%;
+        height: auto;
+        background: #fff;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        
+        ul {
+            list-style: none; 
+            li{
+                margin-left: 15%;
+                margin-top: 10px;
+            }
+          }
+    }
+    button{
+        padding: 15px;
+        color: #17313b;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 10px;
+        margin-top: 20px;
+        width: 20%;
+        }
+    button:hover{
+        text-decoration:underline;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .project{
+     button{
+        width: 50%;
+     }
+    }
+  }

@@ -1,0 +1,50 @@
+.payment{
+    margin-top: 10%;
+    margin-bottom: 60px;
+    h1{
+        color: #17313b;
+        font-weight: 700;
+        font-size: 35px;
+    }
+    p{
+        color: #17313b;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .col{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .logo {
+        width: 80%;
+        margin-left: 15%;
+      }
+      h2{
+        color: #17313b;
+        font-weight: 700;
+        font-size: 30px;
+        opacity: .8;
+      }
+      .circle{
+        margin-left: 17%;
+      }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .payment{
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .payment{
+        margin-top: 80%;
+        h2{
+            font-size: 20px;
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+}

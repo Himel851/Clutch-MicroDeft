@@ -1,0 +1,18 @@
+.section3 {
+  border-bottom: 4px solid #0f507a;
+  padding: 20px;
+  p {
+    font-weight: 300;
+  }
+  .inner {
+    overflow: hidden;
+    .img {
+      width: 80%;
+      height: auto;
+      transition: all 1.5s ease;
+    }
+  }
+  .inner:hover img {
+    transform: scale(1.2);
+  }
+}

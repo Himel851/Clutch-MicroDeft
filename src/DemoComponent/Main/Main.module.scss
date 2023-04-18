@@ -1,0 +1,28 @@
+.main {
+  padding-left: 10%;
+  border-bottom: 1px solid #17313b;
+  .div1 {
+    p {
+      background: #17313b;
+      color: #fff;
+      border-radius: 5px;
+      width: 160px;
+      padding: 20px;
+    }
+  }
+  .div2 {
+    color: #17313b;
+    margin-left: 6%;
+    width: 5%;
+    border-right: 1px solid #17313b;
+    .icon {
+      font-size: 20px;
+    }
+  }
+  .div2:hover {
+    color: red;
+  }
+  .input{
+    margin-left: 10%;
+  }
+}
