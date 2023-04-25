@@ -28,7 +28,6 @@ const Header = () => {
                     Choosing a custom web design company takes time, but we can help. We have rounded up the best web design companies that you <br /> can filter by location, budget, reviews and more. Browse our vetted list of top-ranking web designers and web design agencies. Or <br /> view our popular web design packages.
                 </p>
             </div>
-
             <hr style={{ height: '5px', borderWidth: '0', backgroundColor: 'black', color: 'black' }} />
 
 
