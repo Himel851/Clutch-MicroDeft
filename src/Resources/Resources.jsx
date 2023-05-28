@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import styles from './resources.module.scss'
 
 const Resources = () => {
     return (
@@ -37,6 +38,72 @@ const Resources = () => {
                         <p style={{ color: '#2f18b1' }}>SEO, Thought Leaders</p>
                         <p>When to Hire a Freelance SEO vs. Agency</p>
                     </Col>
+                </Row>
+            </Container>
+            <br />
+            <hr className={styles.hrElement} />
+            <h5 className='pt-4'>Most Popular</h5>
+
+            <Container>
+                <Row className="d-flex gap-3 pt-4">
+                    <Col className='border border-info p-2'>
+                        <div style={{ backgroundColor: '#203D4F', color: '#fff' }}>
+                           <h3 className='p-5'>When to Hire a Freelance PPC Specialist vs. PPC Agency</h3>
+                        </div>
+                        <p style={{ color: '#2f18b1' }}>Digital Marketing, Thought Leaders</p>
+                        <hr />
+                        <h4>When to Hire a Freelance PPC Specialist vs. PPC Agency</h4>
+                        <p>Freelance PPC specialists vs. PPC agency: which partnership is right for your business? This article lists the pros and cons of both.</p>
+                    </Col>
+                    <Col className='border border-info p-2'>
+                        <div style={{ backgroundColor: '#203D4F', color: '#fff' }}>
+                           <h3 className='p-5'>When to Hire a Freelance PPC Specialist vs. PPC Agency</h3>
+                        </div>
+                        <p style={{ color: '#2f18b1' }}>Digital Marketing, Thought Leaders</p>
+                        <hr />
+                        <h4>When to Hire a Freelance PPC Specialist vs. PPC Agency</h4>
+                        <p>Freelance PPC specialists vs. PPC agency: which partnership is right for your business? This article lists the pros and cons of both.</p>
+                    </Col>
+                    <Col className='border border-info p-2'>
+                        <div style={{ backgroundColor: '#203D4F', color: '#fff' }}>
+                           <h3 className='p-5'>When to Hire a Freelance PPC Specialist vs. PPC Agency</h3>
+                        </div>
+                        <p style={{ color: '#2f18b1' }}>Digital Marketing, Thought Leaders</p>
+                        <hr />
+                        <h4>When to Hire a Freelance PPC Specialist vs. PPC Agency</h4>
+                        <p>Freelance PPC specialists vs. PPC agency: which partnership is right for your business? This article lists the pros and cons of both.</p>
+                    </Col>
+                   
+                </Row>
+                <Row className="d-flex gap-3 pt-4">
+                    <Col className='border border-info p-2'>
+                        <div style={{ backgroundColor: '#203D4F', color: '#fff' }}>
+                           <h3 className='p-5'>When to Hire a Freelance PPC Specialist vs. PPC Agency</h3>
+                        </div>
+                        <p style={{ color: '#2f18b1' }}>Digital Marketing, Thought Leaders</p>
+                        <hr />
+                        <h4>When to Hire a Freelance PPC Specialist vs. PPC Agency</h4>
+                        <p>Freelance PPC specialists vs. PPC agency: which partnership is right for your business? This article lists the pros and cons of both.</p>
+                    </Col>
+                    <Col className='border border-info p-2'>
+                        <div style={{ backgroundColor: '#203D4F', color: '#fff' }}>
+                           <h3 className='p-5'>When to Hire a Freelance PPC Specialist vs. PPC Agency</h3>
+                        </div>
+                        <p style={{ color: '#2f18b1' }}>Digital Marketing, Thought Leaders</p>
+                        <hr />
+                        <h4>When to Hire a Freelance PPC Specialist vs. PPC Agency</h4>
+                        <p>Freelance PPC specialists vs. PPC agency: which partnership is right for your business? This article lists the pros and cons of both.</p>
+                    </Col>
+                    <Col className='border border-info p-2'>
+                        <div style={{ backgroundColor: '#203D4F', color: '#fff' }}>
+                           <h3 className='p-5'>When to Hire a Freelance PPC Specialist vs. PPC Agency</h3>
+                        </div>
+                        <p style={{ color: '#2f18b1' }}>Digital Marketing, Thought Leaders</p>
+                        <hr />
+                        <h4>When to Hire a Freelance PPC Specialist vs. PPC Agency</h4>
+                        <p>Freelance PPC specialists vs. PPC agency: which partnership is right for your business? This article lists the pros and cons of both.</p>
+                    </Col>
+                   
                 </Row>
             </Container>
         </div>
