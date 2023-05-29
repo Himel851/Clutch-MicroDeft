@@ -2,8 +2,9 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import style from "./footer.module.scss";
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
-import {FaFacebookF} from 'react-icons/fa'
-import {BsTwitter, BsInstagram, BsYoutube, BsLinkedin} from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa'
+import { BsTwitter, BsInstagram, BsYoutube, BsLinkedin } from 'react-icons/bs'
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -17,7 +18,14 @@ const Footer = () => {
                                 1800 Massachusetts Ave, NW <br /> Washington, DC 20036
                             </li>
                             <li>Site Feedback</li>
-                            <li>Contact Us</li>
+                            <li>
+                                <Link
+                                    href="/contact-us"
+                                    style={{ textDecoration: "none", color: "inherit" }}
+                                >
+                                    Contact Us
+                                </Link>
+                            </li>
                         </ul>
                     </Col>
                     <Col xs={12} sm={6} md={3}>
@@ -86,7 +94,7 @@ const Footer = () => {
                                 </NavItem>
                                 <NavItem>
                                     <Nav.Link href="#" className="text-dark">
-                                    <BsInstagram />
+                                        <BsInstagram />
                                     </Nav.Link>
                                 </NavItem>
                                 <NavItem>

@@ -89,16 +89,17 @@ const ContactPage = () => {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Label>Company Name <span style={{ color: 'red' }}>*</span></Form.Label>
-                            <Form.Control type="text" placeholder="Last Name" />
+                            <Form.Control type="text" placeholder="" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Label>Company Website URl <span style={{ color: 'red' }}>*</span></Form.Label>
-                            <Form.Control type="text" placeholder="Last Name" />
+                            <Form.Control type="text" placeholder="" />
                         </Form.Group>
 
                     </Form>
                 </div>
             </div>
+            
         </div>
     )
 }
