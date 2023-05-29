@@ -96,10 +96,23 @@ const ContactPage = () => {
                             <Form.Control type="text" placeholder="" />
                         </Form.Group>
 
+                        <div style={{ textAlign: 'center' }}>
+                            <button
+                                style={{
+                                    display: 'inline-block',
+                                    padding: '10px 20px',
+                                    backgroundColor: 'green',
+                                    color: 'white',
+                                }}
+                            >
+                                Submit Here
+                            </button>
+                        </div>
+
                     </Form>
                 </div>
             </div>
-            
+
         </div>
     )
 }
