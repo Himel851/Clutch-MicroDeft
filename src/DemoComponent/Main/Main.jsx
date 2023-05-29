@@ -38,6 +38,7 @@ const Main = () => {
                             </Col>
                         </Row>
                     </Container>
+                    
                     <p>Reviews</p>
                 </div>
                 <div className={style.div2}>

@@ -12,7 +12,7 @@ const GetList = () => {
                             <div className='p-5'>
                                 <h2 className='text-center'>Collect reviews  and <br /> generate  leads with <br /> your FREE Clutch <br /> profile!</h2>
                                 <p className='pt-3 text-center'>Try Clutch for free with a Basic Profile. This is a <br /> great way to get listed on Clutch directories, <br /> collect reviews, and generate new leads.</p>
-                                <Button variant='success'>Explore Alternative Options</Button>
+                                <Button style={{backgroundColor: '#17313B'}} >Explore Alternative Options</Button>
 
                             </div>
                         </div>

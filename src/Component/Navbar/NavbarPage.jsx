@@ -29,7 +29,7 @@ const NavbarPage = () => {
                         <Link href="" className="text-white nav-link arrow-none fw-bold me-2" >Services</Link>
                         <Link href="/resources" className="text-white nav-link arrow-none fw-bold me-5" >Resources</Link>
                         <Link href="/login">
-                            <Button variant="outline-light" className="me-2 text-white"  >
+                            <Button variant="outline-success" className="me-2 text-white"  >
                                 Login
                             </Button>
                         </Link>
