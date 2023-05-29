@@ -5,6 +5,7 @@ import { AiFillStar } from 'react-icons/ai'
 import handshake from '../../images/handshake.jpg'
 import Image from 'next/image'
 import teach from '../../images/teach.jpg'
+import Link from 'next/link'
 const Experience = () => {
     return (
         <div>
@@ -34,16 +35,18 @@ const Experience = () => {
                 <Container>
                     <Row>
                         <Col>
-                        <Image src={teach} className={style.teachImg} />
+                            <Image src={teach} className={style.teachImg} />
                         </Col>
                         <Col>
-                        <div className={style.right}>
-                            <h4>Selling B2B Services?</h4>
-                            <h1>Connect with your next client on Clutch</h1>
-                            <p>Get in front of millions of active B2B buyers worldwide inside the leading global business services marketplace. </p>
-                            <button>Write a Review</button>
-                            <p>Already have a profile? Ask your clients to leave a review.</p>
-                        </div>
+                            <div className={style.right}>
+                                <h4>Selling B2B Services?</h4>
+                                <h1>Connect with your next client on Clutch</h1>
+                                <p>Get in front of millions of active B2B buyers worldwide inside the leading global business services marketplace. </p>
+                                <Link href="/get-listed">
+                                    <button>Create a Profile</button>
+                                </Link>
+                                <p>Already have a profile? Ask your clients to leave a review.</p>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
