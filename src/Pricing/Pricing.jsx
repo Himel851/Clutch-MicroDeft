@@ -49,24 +49,24 @@ const Pricing = () => {
                     </tr>
                 </tbody>
             </Table>
-                <p className='fs-5'>Note: Price ranges above are in U.S. dollars</p>
+            <p className='fs-5'>Note: Price ranges above are in U.S. dollars</p>
 
-                <h2 className='mt-5'>What is the Real Cost of Hiring a UX Design Agency?</h2>
-                <p className='fs-5'>The average cost of hiring a UX/UI design agency on Clutch is between <b>$25-$49.</b> </p>
-                <p className='fs-5'>Beginning a UX design project requires a solid understanding of what your company needs regarding design work. While clients themselves don’t need to be skilled designers, they need to have a general idea of what they’re looking for. Additionally, a successful UX design project relies on the input of target users since all planning directly impacts them.</p>
+            <h2 className='mt-5'>What is the Real Cost of Hiring a UX Design Agency?</h2>
+            <p className='fs-5'>The average cost of hiring a UX/UI design agency on Clutch is between <b>$25-$49.</b> </p>
+            <p className='fs-5'>Beginning a UX design project requires a solid understanding of what your company needs regarding design work. While clients themselves don’t need to be skilled designers, they need to have a general idea of what they’re looking for. Additionally, a successful UX design project relies on the input of target users since all planning directly impacts them.</p>
 
-                <h4>What Services Do UX Design Companies Offer?</h4>
-                <p className='fs-5'>User experience designers help with the following in a design process:</p>
+            <h4>What Services Do UX Design Companies Offer?</h4>
+            <p className='fs-5'>User experience designers help with the following in a design process:</p>
 
-                <ui>
-                    <li>Creation of prototypes and wireframes</li>
-                    <li>UX research</li>
-                    <li>Strategic planning & discovery</li>
-                    <li>User testing & refining</li>
-                    <li>Designing the final MVP with UI focus</li>
-                    <li>Assisting with launch if needed</li>
-                </ui>
-                <p className='fs-5'>Before hiring a UX or UI designer, it’s important to outline your needs, your customer needs, and needs for a design partner. The cost of working with a UX design company depends on various factors like industry experience, location, and more.</p>
+            <ui>
+                <li>Creation of prototypes and wireframes</li>
+                <li>UX research</li>
+                <li>Strategic planning & discovery</li>
+                <li>User testing & refining</li>
+                <li>Designing the final MVP with UI focus</li>
+                <li>Assisting with launch if needed</li>
+            </ui>
+            <p className='fs-5'>Before hiring a UX or UI designer, it’s important to outline your needs, your customer needs, and needs for a design partner. The cost of working with a UX design company depends on various factors like industry experience, location, and more.</p>
 
 
 
