@@ -14,6 +14,8 @@ const ContactPage = () => {
             }}
         >
             <div className="p-5" style={{ backgroundColor: '#fff', width: '80%' }}>
+            <h1 className='text-center'>Contact Us</h1>
+
                 <div className="pt-3">
                     <Form>
                         <p> <b>How can we help? </b> </p>

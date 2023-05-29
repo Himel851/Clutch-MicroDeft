@@ -17,7 +17,14 @@ const Footer = () => {
                             <li>
                                 1800 Massachusetts Ave, NW <br /> Washington, DC 20036
                             </li>
-                            <li>Site Feedback</li>
+                            <li>
+                                <Link
+                                    href="/feedback"
+                                    style={{ textDecoration: "none", color: "inherit" }}
+                                >
+                                    Site Feedback
+                                </Link>
+                            </li>
                             <li>
                                 <Link
                                     href="/contact-us"
