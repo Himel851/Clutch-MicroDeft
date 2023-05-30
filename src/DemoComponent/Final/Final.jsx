@@ -407,7 +407,7 @@ const Final = () => {
                     </Row>
                 </Container>
             </div>
-
+j
             <div className={style.main}>
                 <Container>
                     <Row>
@@ -506,9 +506,9 @@ const Final = () => {
                 </Container>
             </div>
 
-           
 
-         
+
+
         </div>
     );
 };
