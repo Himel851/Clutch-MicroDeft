@@ -53,7 +53,7 @@ const Main = () => {
                 </div>
                 <div className={style.input}>
                     <InputGroup >
-                        <InputGroup.Text id="basic-addon1">Sort By</InputGroup.Text>
+                        <InputGroup.Text id="basic-addon1">Sort </InputGroup.Text>
                         <Form.Select aria-label="Default select example" style={{ width: "180px" }}>
                             <option>Sponsored</option>
                             <option value="1">One</option>
