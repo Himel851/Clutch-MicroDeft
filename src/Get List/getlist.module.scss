@@ -1,18 +1,17 @@
+.btn1 {
+  padding: 12px;
+  background: none;
+  border: 2px solid red;
+  color: red;
+}
+.btn1:hover {
+  background: red;
+  color: white;
+}
 
-.btn1{
-    padding: 12px;
-    background: none;
-    border: 2px solid red;
-    color: red;
+.div1 {
+  margin-top: 10vh;
 }
-.btn1:hover{
-    background: red;
-    color: white;
-}
-
-.div1{
-    margin-top: 10vh;
-}
-.div3{
-    margin-top: 15vh;
+.div3 {
+  margin-top: 15vh;
 }

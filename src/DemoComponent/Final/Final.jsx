@@ -407,7 +407,6 @@ const Final = () => {
                     </Row>
                 </Container>
             </div>
-
         </div>
     );
 };
